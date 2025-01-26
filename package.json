@@ -1,0 +1,17 @@
+{
+  "name": "simple-http-assignment-start",
+  "version": "1.0.0",
+  "description": "Simple HTTP Assignment",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "pretest":"eslint ./src --fix",
+    "test": "echo \"Test complete\""
+  },
+  "author": "Joey Patrum",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.19.0",
+    "eslint-plugin-import": "^2.31.0"
+  }
+}
